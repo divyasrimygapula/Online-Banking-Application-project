@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T16:00:48 IST" name="BankingSuite" finished-at="2026-03-10T16:01:02 IST" duration-ms="14787">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T16:00:48 IST" name="BankingTests" finished-at="2026-03-10T16:01:02 IST" duration-ms="14787">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@4562e04d]" started-at="2026-03-10T16:00:48 IST" name="setup" finished-at="2026-03-10T16:00:51 IST" duration-ms="3712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:0, instance:tests.LoginTest@4562e04d]" started-at="2026-03-10T16:00:51 IST" name="verifyLogin" finished-at="2026-03-10T16:00:53 IST" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@4562e04d]" started-at="2026-03-10T16:00:53 IST" name="teardown" finished-at="2026-03-10T16:00:53 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.BalanceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BalanceTest@c730b35]" started-at="2026-03-10T16:00:53 IST" name="setup" finished-at="2026-03-10T16:00:55 IST" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkBalance()[pri:0, instance:tests.BalanceTest@c730b35]" started-at="2026-03-10T16:00:55 IST" name="checkBalance" finished-at="2026-03-10T16:00:57 IST" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBalance -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.BalanceTest@c730b35]" started-at="2026-03-10T16:00:57 IST" name="teardown" finished-at="2026-03-10T16:00:58 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.BalanceTest -->
+      <class name="tests.FundTransferTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FundTransferTest@206a70ef]" started-at="2026-03-10T16:00:58 IST" name="setup" finished-at="2026-03-10T16:01:00 IST" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTransfer()[pri:0, instance:tests.FundTransferTest@206a70ef]" started-at="2026-03-10T16:01:00 IST" name="verifyTransfer" finished-at="2026-03-10T16:01:02 IST" duration-ms="2206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransfer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.FundTransferTest@206a70ef]" started-at="2026-03-10T16:01:02 IST" name="teardown" finished-at="2026-03-10T16:01:02 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.FundTransferTest -->
+    </test> <!-- BankingTests -->
+  </suite> <!-- BankingSuite -->
+</testng-results>
